@@ -26,6 +26,7 @@ export type NodeTypeOption = {
   icon: React.ComponentType<{ className?: string }> | string;
 };
 
+//
 const triggerNodes: NodeTypeOption[] = [
   {
     type: NodeType.MANUAL_TRIGGER,
