@@ -8,8 +8,7 @@ import {
   LogOutIcon,
   StarIcon,
 } from "lucide-react";
-import Image from "next/image";
-import Link from "next/link";
+
 import { usePathname, useRouter } from "next/navigation";
 import {
   Sidebar,
@@ -24,6 +23,8 @@ import {
 } from "@/components/ui/sidebar";
 import { authClient } from "@/lib/auth-client";
 import { useHasActiveSubscription } from "@/features/subscriptions/hooks/use-subscription";
+import Image from "next/image";
+import Link from "next/link";
 
 const menuItems = [
   {
